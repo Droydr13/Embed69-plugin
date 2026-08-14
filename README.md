@@ -1,67 +1,21 @@
-# Ray's Plugins
+# Nuvio Embed69
 
-A curated collection of the best plugins compiled for the Nuvio streaming application. These plugins allow you to fetch premium streams from various sources directly within the app.
+Fork personal de [Ray's Plugins](https://github.com/hihihihihiiray/nuvio-plugins) para la app **Nuvio**, con el `manifest.json` limitado únicamente al proveedor **Embed69**.
 
-## Installation
+Este repo se sincroniza automáticamente cada semana (y manualmente vía `workflow_dispatch`) con el repositorio original, para recibir arreglos y mejoras en los archivos de `providers/`. El `manifest.json` está protegido (`merge=ours`) para que la sincronización nunca lo sobreescriba: siempre se mantiene solo con Embed69 habilitado.
 
-1. Open the **Nuvio** app
-2. Go to **Settings → Plugins → Click on "Add new repository"**
-3. Paste this URL:
+## Instalación
+
+1. Abre la app **Nuvio**
+2. Ve a **Settings → Plugins → Add new repository**
+3. Pega esta URL (reemplaza `TU-USUARIO` por tu usuario/repo de GitHub):
    ```
-   https://raw.githubusercontent.com/hihihihihiiray/nuvio-plugins/refs/heads/main/manifest.json
+   https://raw.githubusercontent.com/TU-USUARIO/TU-REPO/refs/heads/main/manifest.json
    ```
-4. Enable or disable your desired plugins
+4. Activa el plugin Embed69
 
+## Cómo funciona la sincronización
 
-## Available Plugins
-| Provider | Language | Content | Quality
-| --- | --- | --- | --- |
-| [![4khdhub.png](https://i.postimg.cc/Z5B7RF79/4khdhub.png)](https://postimg.cc/21YF9vfm) 4KHDHub | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇮🇳 | Shows & Movies | 4K / 1080p / 720p
-| 🎬 Airflix | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | Shows & Movies | 1080p / 720p
-| [![dfb4smC5](https://ruayamo.s-ul.eu/dfb4smC5)](https://postimg.cc/QBbHSrdv) AnimePahe | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇯🇵 | Anime (Shows & Movies) | 1080p / 720p
-| [![IMG-0639.jpg](https://i.postimg.cc/FzGgkp2F/IMG-0639.jpg)](https://postimg.cc/0KMJLYkh) AniNeko | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇯🇵 | Anime (Shows & Movies) | 1080p / 720p
-| [![bdgAJi9w](https://ruayamo.s-ul.eu/bdgAJi9w)](https://postimg.cc/bD8wRQQ1) BollyFlix | 🏴󠁧󠁢󠁥󠁮󠁧󠁿  🇮🇳 🇯🇵 🇲🇾 🇰🇷 | Shows & Movies & Anime | 4K / 1080p / 720p
-| [![56ivks.png](https://files.catbox.moe/56ivks.png)](https://postimg.cc/svGK7JPb) DahmerMovies | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | Shows & Movies | 4K / 1080p
-| [![TAdfgLqZ](https://ruayamo.s-ul.eu/TAdfgLqZ)](https://postimg.cc/0K07M6fk) Embed69 | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇪🇸 | Shows & Movies | 1080p / 720p
-| [![FASbMFZz](https://ruayamo.s-ul.eu/FASbMFZz)](https://postimg.cc/sGdR052X) FaselHD | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇦🇪 | Shows & Movies | 1080p / 720p
-| [![QamCog9I](https://ruayamo.s-ul.eu/QamCog9I)](https://postimg.cc/5QS8YH3N) FilmModu | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇹🇷 | Shows & Movies | 1080p / 720p
-| [![download-(2).png](https://i.postimg.cc/cJ6s6jq8/download-(2).png)](https://postimg.cc/CZTyQcxF) HDHub4u | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇮🇳 | Shows & Movies | 4K / 1080p / 720p
-| [![4RPU1nrB](https://ruayamo.s-ul.eu/4RPU1nrB)](https://postimg.cc/tnNFZ15p) KissKH | 🇰🇷 🇨🇳 🇯🇵 🇹🇭 | Asian Dramas & Movies | 1080p / 720p
-| [![yCuUJlvP](https://ruayamo.s-ul.eu/yCuUJlvP)](https://postimg.cc/ykh7tp9T) MovieBlast | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇮🇳 | Shows & Movies | 1080p / 720p
-| [![0lxldV5e](https://ruayamo.s-ul.eu/0lxldV5e)](https://postimg.cc/p5JKh9ZV) Movix | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇫🇷 | Shows & Movies | 1080p / 720p
-| [![showbox.png](https://i.postimg.cc/nzzVyqYQ/showbox.png)](https://postimg.cc/67kNR2P9) ShowBox | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | Shows & Movies | 4K / 1080p / 720p
-| [![8v3IFJsp](https://ruayamo.s-ul.eu/8v3IFJsp)](https://postimg.cc/DJYGs7yY) TokyoInsider | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇯🇵 | Anime (Shows & Movies) | 1080p / 720p
-| [![uhdmovies.png](https://i.postimg.cc/VkCg1svN/uhdmovies.png)](https://postimg.cc/qh71J3gx) UHDMovies | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇮🇳 | Shows & Movies | 4K / 1080p / 720p
-| [![0MHxk3jE](https://ruayamo.s-ul.eu/0MHxk3jE)](https://postimg.cc/DJNNcCd9) VidEasy | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 🇩🇪 🇮🇹 🇫🇷 🇪🇸 🇧🇷 | Shows & Movies | 4K / 1080p / 720p
-| [![x6exNRUb](https://ruayamo.s-ul.eu/x6exNRUb)](https://postimg.cc/754Dch6T) VidFast | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | Shows & Movies | 1080p / 720p
-| 🎬 VidLink | 🏴󠁧󠁢󠁥󠁮󠁧󠁿 | Shows & Movies | 1080p / 720p
-
-
-**Total Number of Plugins**: **18**
-
-## Disclaimer
-**No content is hosted by this repository.**
-
-- Providers fetch publicly available content from third-party websites.
-
-- Users are responsible for ensuring their use complies with applicable laws and regulations in their jurisdiction.
-  
-- For DMCA concerns, contact the actual content hosts.
-
-
-This repository is a personal collection of public plugins made by me and others for public use, and is strictly for **educational purposes only**. I am in no way affiliated with Nuvio or any of the listed providers.
-
-
-## Credits
-Huge thanks to these people:
-
-- **paregi12**
-- **D3adlyRocket**
-- **Phisher98**
-- **Sanchit**
-- **wooodyhood**
-- **KennethJYS**
-- **keyiflerolsun**
-- **Michat88**
-- **Nvmindl**
-- **Kabir**
+- `.gitattributes` marca `manifest.json` con `merge=ours`, así los merges automáticos nunca tocan ese archivo.
+- El workflow `sync.yml` agrega el repo original como remoto `upstream`, hace `fetch` y `merge upstream/main`.
+- Si hay un conflicto fuera de `manifest.json`, el workflow aborta el merge y crea un Issue automáticamente para revisión manual.
