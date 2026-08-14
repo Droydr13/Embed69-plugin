@@ -1,0 +1,21 @@
+# Ignorar TODO por defecto
+/*
+
+# Excepciones (Archivos que SÍ queremos en GitHub)
+!manifest.json
+!providers/
+!providers/*.js
+!update-user-agent.js
+!README.md
+!.gitignore
+!.gitattributes
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
+
+# Ignorar archivos de sistema y temporales (incluso si están en carpetas permitidas)
+.DS_Store
+Thumbs.db
+*.log
+*.backup
+/tmp/
