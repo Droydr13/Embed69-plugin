@@ -8,7 +8,7 @@ Fork personal de [Ray's Plugins](https://github.com/hihihihihiiray/nuvio-plugins
 2. Ve a **Settings → Plugins → Add new repository**
 3. Pega esta URL (reemplaza `TU-USUARIO` y `TU-REPO`):
    ```
-   https://raw.githubusercontent.com/TU-USUARIO/TU-REPO/refs/heads/main/manifest.json
+   https://raw.githubusercontent.com/Droydr13/Embed69-plugin/refs/heads/main/manifest.json
    ```
 4. Activa el plugin Embed69
 
